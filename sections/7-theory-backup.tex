@@ -1,3 +1,42 @@
-\section{Theory Backup (Starting Period)}
-\label{sec:theory}
-Discuss the theoretical foundations that support your project. This section should include relevant theories, models, and formulas that will be used in the research. Provide citations where appropriate.
+\section{Theory and Technical Backup}
+
+\subsection{Hardware Features}
+
+The physical design of the robot is anthropomorphic-centric, with elements of animals as well. The robot will be around 12 inches tall, comprising various integrated hardware components. Starting from the top, the robot’s head will consist of a 3D printed sphere, and eyes made from an integrated LED display, which will be used as a form of interaction with the user. In addition, the head will also house the camera and microphone, used to receive image and sound inputs for processing within the microcontroller. Next, the robot’s body will consist of a large chassis to house the electrical components and the microcontroller. The body will also consist of motors located on the arms to allow for minor arm movement. Lastly, touch sensors will be placed in certain parts of the robot to imitate petting interaction. This design is akin to many desktop companion robots for promoting mental wellness, such as Kiki or Eilik, with the core difference being in the integration of various emotion detection methods.
+
+\subsection{Software Features - Overview}
+
+The robot comprises two main features: emotion detection and interaction. Emotion detection is an initiative to incorporate empathy for the customer experience with the robot, using computer vision to analyze facial expressions, as well as speech emotion recognition to analyze tone and pitch. Given predicted emotional status, the robot will be programmed to provide interaction in two forms: verbal and non-verbal. Verbal interactions consist of noises made by the robot, whereas non-verbal interactions comprise physical actions from the robot such as arm movement or changes in the LED display resembling its eyes.
+
+\subsection{Emotion Detection Model - Facial Expression Recognition}
+
+Facial expression recognition is a core technique in emotion detection systems, crucial for understanding non-verbal emotional cues in humans. Recent advancements have centered on using Convolutional Neural Networks (CNNs) to detect and classify facial emotions with high accuracy. OpenFace \cite{baltrusaitis2018} and VGGFace \cite{zhang2023} are among the most prominent models in this field. These models extract key facial features—such as eye movement, mouth shape, and eyebrow positions—from images and videos to classify emotions like happiness, anger, and sadness. CNNs have demonstrated strong performance by learning spatial hierarchies of features, allowing them to detect subtle changes in facial expressions, even in complex or dynamic environments. Such models are pivotal in creating emotionally responsive robots, as they allow real-time emotion tracking through visual input.
+
+\subsection{Emotion Detection Model - Speech Recognition}
+
+Speech recognition for emotional detection focuses on analyzing vocal characteristics to infer emotional states. Key prosodic features such as pitch, tone, and rhythm are crucial indicators of emotions in speech. Recent methods have employed Recurrent Neural Networks (RNNs) and Long Short-Term Memory (LSTM) networks for processing audio data, while newer approaches utilize transformer models like BERT \cite{devlin2019}. These models capture the temporal dependencies in spoken language, enabling the system to interpret emotions more accurately. LSTMs are particularly effective at maintaining contextual information over time, which is vital for understanding emotions that are expressed through vocal modulations. The integration of these techniques allows robots to engage in emotionally intelligent conversations by understanding the user's mood through their voice.
+\newpage
+\subsection{Testing}
+
+The testing of the robot will comprise both internal and external components. In terms of internal components: The emotion detection model should achieve a benchmark score in accuracy metrics, or a similar number on a different scale. Since both the computer vision and speech emotion recognition (SER) datasets will be discretely labeled, quantitative measurement of accuracy will be feasible. For instance, the speech recognition model may classify a person’s voice as either normal or anxious.
+
+On the other hand, in terms of external components, user testing will involve supervision and validation from Chula Student Wellness. Questionnaires will be developed to obtain the required information accordingly, representative questions include:
+
+\begin{itemize}
+    \item \textbf{Self-Report on Anxiety}
+    \begin{enumerate}
+        \item Before using Pookie, how would you rate your anxiety levels from 1-10? Please provide your rating now and when you’re at your most anxious.
+        \item After using Pookie, how would you rate your anxiety levels from 1-10? Please provide your rating now and when you’re at your most anxious.
+    \end{enumerate}
+    \item \textbf{Positivity Promotion}
+    \begin{enumerate}
+        \item Before using Pookie, how would you rate your general positive feelings in life from 1-10?
+        \item After using Pookie, how would you rate your general positive feelings in life from 1-10?
+    \end{enumerate}
+    \item \textbf{Attachment}
+    \begin{enumerate}
+        \item After using Pookie for 1 week, do you feel more attached to it?feelings in life from 1-10?
+    \end{enumerate}
+\end{itemize}
+
+While these are examples of questions that will be asked, proper guidance from Chula Student Wellness will be given as well during the testing stage.
