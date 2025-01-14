@@ -6,38 +6,13 @@ understand technical terms used throughout the report.
 
 The project focuses on developing emotional wellbeing robots that promote mental wellness and positivity for users under the influence of stress and anxiety. In general, emotion-related robots are designed to respond to human emotions and can potentially achieve clinical outcomes similar to traditional therapy\cite{Palmer2024.07.17.24310551}. Research has shown that digital interventions, such as AI-powered mental wellbeing robots, can effectively reduce anxiety symptoms and address unmet mental health needs, offering a promising solution to supplement traditional therapeutic approaches \cite{jarvis2024companion}.
 
-The mental health industry faces significant challenges that cannot be fully addressed through human
-intervention alone \cite{charles-2024}. Key issues include loneliness and social isolation, which are major contributors
-to depression, anxiety, and overall deterioration in mental health \cite{GOH202372}, as well as therapeutic challenges
-where patients with dementia or other cognitive impairments often struggle with traditional therapeutic
-activities \cite{Sukhawathanakul_Crizzle_Tuokko_Naglie_Rapoport_2021}.
+The mental health industry faces significant challenges that cannot be fully addressed through human intervention alone \cite{charles-2024}. Key issues include loneliness and social isolation, which are major contributors to depression, anxiety, and overall deterioration in mental health \cite{GOH202372}, as well as therapeutic challenges where patients with dementia or other cognitive impairments often struggle with traditional therapeutic activities \cite{Sukhawathanakul_Crizzle_Tuokko_Naglie_Rapoport_2021}.
 
-In a study by the National Innovation Agency (NIA) based in Thailand, it was identified that the
-concept of ”Terror Outburst” would become a pressing issue in Thailand by the year 2033 \cite{nia2023}. To
-elaborate, terror outburst refers to a society driven by constant fear and anxiety. Given this, traditional
-methods of addressing anxiety, such as therapy and medication, may not be accessible or appealing to
-everyone. This creates a significant pain point for individuals seeking immediate, non-invasive support.
-Our target customer segment includes young adults and professionals aged 18-35 who experience mild to
-moderate anxiety but may be hesitant to seek conventional treatment, where we provide an innovative
-alternative to support their mental wellbeing.
+In a study by the National Innovation Agency (NIA) based in Thailand, it was identified that the concept of \textbf{\textit{Terror Outbursts}} would become a pressing issue in Thailand by the year 2033 \cite{nia2023}. Toelaborate, terror outburst refers to a society driven by constant fear and anxiety. Consequently, traditional methods of addressing anxiety, such as therapy and medication, may not be accessible or appealing to everyone. This creates a significant pain point for individuals seeking immediate, non-invasive support. Our target customer segment includes young adults and professionals aged 18-35 who experience mild to moderate anxiety but may be hesitant to seek conventional treatment, where we provide an innovative alternative to support their mental wellbeing.
 
-To ensure emotional wellbeing robots meet user needs and deliver effective support, three key pillars
-are essential: appearance, interactivity, and empathy. First, the robot’s appearance should strike a
-balance between human-like and machine-like traits, fostering both comfort and trust in users \cite{10.1145/3640794.3665551}. High
-interactivity is also crucial; the robot should provide adaptive feedback through various stimuli to engage
-users effectively and enhance their emotional states \cite{Wang_2024}. Moreover, a robot’s perceived empathic abilities
-play a significant role in how users interact with it, as these perceptions directly influence their willingness to attribute mental states to the robot, thereby impacting the overall quality of the interaction \cite{lillo2024investigatingrelationshipempathyattribution}.
+To ensure emotional wellbeing robots meet user needs and deliver effective support, three key pillars are essential: appearance, interactivity, and empathy. First, the robot’s appearance should strike a balance between human-like and machine-like traits, fostering both comfort and trust in users \cite{10.1145/3640794.3665551}. High interactivity is also crucial; the robot should provide adaptive feedback through various stimuli to engage users effectively and enhance their emotional states \cite{Wang_2024}. Moreover, a robot’s perceived empathic abilities play a significant role in how users interact with it, as these perceptions directly influence their willingness to attribute mental states to the robot, thereby impacting the overall quality of the interaction \cite{lillo2024investigatingrelationshipempathyattribution}.
 
-On the concept of emotion detection, traditional emotional detection methods utilize verbal and
-non-verbal cues to accurately detect and respond to human emotions. Verbal cues like pitch variations,
-volume \cite{HAKANPAA2021570}, and speech rate \cite{app8122629} are critical indicators of emotional states. For example, higher pitch and increased volume often signal heightened emotional arousal \cite{RODERO2011e25}, as seen in both American English and
-Mandarin Chinese, where pitch and speed are essential for expressing emotions. Additionally, contextual
-understanding—interpreting emotions based on situational cues—further refines the robot’s emotional
-recognition capabilities \cite{abbas2024context}. Non-verbal cues, such as facial expressions and body language, also play
-a vital role. For instance, a smile usually denotes happiness \cite{chapre2023emotion}, while crossed arms might suggest
-defensiveness \cite{liu2024emotiondetectionbodygesture}. By integrating these verbal and non-verbal indicators, mental wellbeing support
-robots can offer tailored responses, thereby improving the overall effectiveness of their interactions with
-users.
+On the concept of emotion detection, traditional emotional detection methods utilize verbal and non-verbal cues to accurately detect and respond to human emotions. Verbal cues like pitch variations, volume \cite{HAKANPAA2021570}, and speech rate \cite{app8122629} are critical indicators of emotional states. For example, higher pitch and increased volume often signal heightened emotional arousal \cite{RODERO2011e25}, as seen in both American English and Mandarin Chinese, where pitch and speed are essential for expressing emotions. Additionally, contextual understanding—interpreting emotions based on situational cues—further refines the robot’s emotional recognition capabilities \cite{abbas2024context}. Non-verbal cues, such as facial expressions and body language, also play a vital role. For instance, a smile usually denotes happiness \cite{chapre2023emotion}, while crossed arms might suggest defensiveness \cite{liu2024emotiondetectionbodygesture}. By integrating these verbal and non-verbal indicators, mental wellbeing support robots can offer tailored responses, thereby improving the overall effectiveness of their interactions with users.
 
 \subsection{Necessary Knowledge}
 
@@ -45,27 +20,10 @@ The development of a mental well-being support robot with emotional detection ca
 
 Machine learning models are the backbone of emotion detection systems. Convolutional Neural Networks (CNNs) \cite{computation11030052} are widely used for tasks such as facial emotion recognition, where they excel at analyzing image data to identify patterns corresponding to different emotional states. One specific architecture, VGGNet, has proven effective for emotion detection due to its deep, layered structure and ability to capture fine-grained facial features. VGGNet's simplicity in design \cite{computation11030052}, using smaller 3x3 filters stacked in depth, makes it particularly useful for recognizing subtle facial expressions that correspond to emotions. This capability enhances the accuracy of emotion detection, which is crucial for the mental well-being support robot to respond appropriately to a user's emotional state.
 
-In the visual domain, key facial features like eyes, mouth, and eyebrows are extracted and analyzed by
-CNNs to detect emotions from facial expressions. Natural Language Processing (NLP) is crucial for enabling the robot to understand and interpret human language, which is key to detecting emotions from text or spoken input. NLP techniques allow the robot to process language data, extracting meaningful insights such as sentiment and intent. These insights help the robot assess the emotional tone and context of the user’s communication, making it possible to respond appropriately to their emotional needs.
+In the visual domain, key facial features like eyes, mouth, and eyebrows are extracted and analyzed by CNNs to detect emotions from facial expressions. Natural Language Processing (NLP) is crucial for enabling the robot to understand and interpret human language, which is key to detecting emotions from text or spoken input. NLP techniques allow the robot to process language data, extracting meaningful insights such as sentiment and intent. These insights help the robot assess the emotional tone and context of the user’s communication, making it possible to respond appropriately to their emotional needs.
 
-The design of emotionally intelligent robots requires an understanding of Human-Robot Interaction
-(HRI) principles. These principles guide the development of robots that can interact naturally and
-empathetically with humans. Concepts such as user-friendly interface design, adaptive behavior, and empathetic response mechanisms ensure that the robot’s interactions are socially acceptable and supportive.
+The design of emotionally intelligent robots requires an understanding of Human-Robot Interaction (HRI) principles. These principles guide the development of robots that can interact naturally and empathetically with humans. Concepts such as user-friendly interface design, adaptive behavior, and empathetic response mechanisms ensure that the robot’s interactions are socially acceptable and supportive.
 
-Additionally, emotionally intelligent robots rely on a combination of advanced hardware and software
-to accurately detect and respond to human emotions. Key hardware components, including cameras,
-are essential for capturing detailed facial expressions in real-time, allowing systems to effectively analyze
-emotional states \cite{gupta-2024}. Microphones and audio sensors play a crucial role in gathering vocal cues, which
-are vital for emotion detection \cite{10.48175/ijarsct-15385}. Processors and GPUs manage the heavy computational tasks, while
-actuators and motors control the robot’s physical movements, such as gestures and facial expressions,
-enabling the robot to convey empathy and respond to users effectively. Haptic sensors further enhance
-this interaction by reacting to touch, contributing to a more interactive and supportive user experience.
+Additionally, emotionally intelligent robots rely on a combination of advanced hardware and software to accurately detect and respond to human emotions. Key hardware components, including cameras, are essential for capturing detailed facial expressions in real-time, allowing systems to effectively analyze emotional states \cite{gupta-2024}. Microphones and audio sensors play a crucial role in gathering vocal cues, which are vital for emotion detection \cite{10.48175/ijarsct-15385}. Processors and GPUs manage the heavy computational tasks, while actuators and motors control the robot’s physical movements, such as gestures and facial expressions, enabling the robot to convey empathy and respond to users effectively. Haptic sensors further enhance this interaction by reacting to touch, contributing to a more interactive and supportive user experience.
 
-Additionally, emotionally intelligent robots rely on a combination of advanced hardware and software
-to accurately detect and respond to human emotions. Key hardware components, including cameras,
-are essential for capturing detailed facial expressions in real-time, allowing systems to effectively analyze
-emotional states. Microphones and audio sensors play a crucial role in gathering vocal cues, which
-are vital for emotion detection. Processors and GPUs manage the heavy computational tasks, while
-actuators and motors control the robot’s physical movements, such as gestures and facial expressions,
-enabling the robot to convey empathy and respond to users effectively. Haptic sensors further enhance
-this interaction by reacting to touch, contributing to a more interactive and supportive user experience.
+Additionally, emotionally intelligent robots rely on a combination of advanced hardware and software to accurately detect and respond to human emotions. Key hardware components, including cameras, are essential for capturing detailed facial expressions in real-time, allowing systems to effectively analyze emotional states. Microphones and audio sensors play a crucial role in gathering vocal cues, which are vital for emotion detection. Processors and GPUs manage the heavy computational tasks, while actuators and motors control the robot’s physical movements, such as gestures and facial expressions, enabling the robot to convey empathy and respond to users effectively. Haptic sensors further enhance this interaction by reacting to touch, contributing to a more interactive and supportive user experience.

@@ -23,13 +23,13 @@
 \contentsline {subsection}{\numberline {4.5}Facial Emotion Recognition}{14}{subsection.4.5}%
 \contentsline {subsubsection}{\numberline {4.5.1}Faces Dataset}{14}{subsubsection.4.5.1}%
 \contentsline {subsubsection}{\numberline {4.5.2}Facial Emotion Recognition Model Development}{15}{subsubsection.4.5.2}%
-\contentsline {subsubsection}{\numberline {4.5.3}Facial Emotion Recognition Model}{15}{subsubsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.6}Speech Emotion Recognition}{16}{subsection.4.6}%
-\contentsline {subsubsection}{\numberline {4.6.1}Speech Emotion Recognition Dataset and Model}{16}{subsubsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.7}Software Challenges}{18}{subsection.4.7}%
-\contentsline {subsection}{\numberline {4.8}Hardware Implementation}{19}{subsection.4.8}%
-\contentsline {subsubsection}{\numberline {4.8.1}Initial Design}{19}{subsubsection.4.8.1}%
-\contentsline {subsubsection}{\numberline {4.8.2}Revised Design}{20}{subsubsection.4.8.2}%
+\contentsline {subsubsection}{\numberline {4.5.3}Facial Emotion Recognition Model}{16}{subsubsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.6}Speech Emotion Recognition}{17}{subsection.4.6}%
+\contentsline {subsubsection}{\numberline {4.6.1}Speech Emotion Recognition Dataset and Model}{17}{subsubsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.7}Software Challenges}{17}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Hardware Implementation}{18}{subsection.4.8}%
+\contentsline {subsubsection}{\numberline {4.8.1}Initial Design}{18}{subsubsection.4.8.1}%
+\contentsline {subsubsection}{\numberline {4.8.2}Revised Design}{19}{subsubsection.4.8.2}%
 \contentsline {section}{\numberline {5}Testing}{23}{section.5}%
 \contentsline {section}{\numberline {6}Summary and Real Benefit to Industry}{24}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Summary}{24}{subsection.6.1}%

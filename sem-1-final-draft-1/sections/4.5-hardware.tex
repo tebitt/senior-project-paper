@@ -11,7 +11,7 @@ This section details the hardware implementation for Pookie. Overall, the design
     
     \begin{figure}[ht]
         \centering
-        \includegraphics[width=0.8\textwidth]{init-outer.png}
+        \includegraphics[width=0.6\textwidth]{init-outer.png}
         \caption{Initial Outer Shell Design of Pookie}
         \label{fig:init-outer}
     \end{figure}
@@ -21,12 +21,13 @@ This section details the hardware implementation for Pookie. Overall, the design
     The arms are designed to move along the x-axis revolute joint and are powered by CS002 20 Kg servo motors.
     \begin{figure}[ht]
         \centering
-        \includegraphics[width=0.7\textwidth]{inner-arm.png}
+        \includegraphics[width=0.6\textwidth]{inner-arm.png}
         \caption{Initial Arm Mechanism of Pookie}
         \label{fig:inner-arm}
     \end{figure}
     
 \end{enumerate}
+\newpage
 \subsubsection{Revised Design}
 The revised hardware design of the Pookie robot focuses on anthropomorphic aesthetics, user-centric functionality, seamless mechanical integration, changes in the arm movement axis, and a more compact size.
 
@@ -42,16 +43,16 @@ The revised hardware design of the Pookie robot focuses on anthropomorphic aesth
 
     The outer shell of Pookie is designed to enclose all internal components in a compact form. It consists of two main sections: the body and the head. The body houses the internal systems, while the head contains an LED screen for displaying the robot's eyes and serves as the mounting point for the head movement mechanism.
 
-\begin{figure}[ht]
+\begin{figure}[!ht]
     \centering
     \includegraphics[width=0.8\textwidth]{new_outer.png}
     \caption{Revised Outer Shell Body of Pookie}
     \label{fig:revised_outer}
 \end{figure}
 
-\begin{figure}[ht]
+\begin{figure}[!ht]
     \centering
-    \includegraphics[width=0.7\textwidth]{new_head.png}
+    \includegraphics[width=0.5\textwidth]{new_head.png}
     \caption{Revised Outer Shell Head of Pookie}
     \label{fig:revised_head}
 \end{figure}
@@ -70,7 +71,8 @@ The movement mechanisms in Pookie include systems for the head, arms, and base. 
 
 Both the head and arm movements use a bevel gear mechanism with a 1:1 transmission powered by MG90s servo motors. This system provides a single degree of freedom along the \textbf{y-axis} revolute joint. A magnet slot at the tip allows easy attachment to the outer shell head, simplifying assembly and maintenance.
 
-\begin{figure}[!htb]
+\newpage
+\begin{figure} [!htb]
     \centering
     \includegraphics[width=0.7\textwidth]{gear_diagram.png}
     \caption{Components of the Head and Arm Mechanisms}
