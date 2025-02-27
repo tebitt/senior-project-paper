@@ -1,0 +1,95 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{graphicx}
+\graphicspath{{sections/images/}}
+\usepackage{}
+\usepackage{caption}
+\usepackage[section]{placeins}
+\usepackage{titlesec}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage[a4paper, top=2cm, bottom=2cm, left=2.5cm, right=2.5cm]{geometry}
+
+\setcounter{secnumdepth}{4}
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+\begin{document}
+\begin{titlepage}
+    \centering  
+    \begin{figure}[ht]
+        \centering
+        \includegraphics[width=\textwidth]{ise-logo.png}
+    \end{figure}
+    \vspace*{2cm} 
+    
+    {\Huge \textbf{Project Proposal} \par}
+    {\Huge \textit{Pookie: An AI-Driven Robot for Promoting Mental Well-being and Emotional Support} \par}
+    \vspace{4cm}
+    
+    {\large \textbf{Authors:} Tibet Buramarn, Kridbhume Chammanard, and Thitaya Divari \par}
+    \vspace{1cm}
+    {\large \textbf{Advisor:} Dr. Paulo Fernando Rocha Garcia, Ph.D., Assistant Professor of AI and Robotics at Chulalongkorn University and \par}
+    {\large Ms. Kunpariya Siripanit, Counseling Psychologist at Chula Student Wellness, Chulalongkorn University \par}
+
+    \vspace{3cm}
+    
+    {\large 2147417 Final Project II \par}
+    {\large International School of Engineering (ISE) \par}
+    {\large Chulalongkorn University \par}
+    
+    \vspace{2cm}
+    
+    {\large January 24, 2025 \par}
+    
+    \vspace*{\fill}
+\end{titlepage}
+
+\thispagestyle{empty}
+
+\newpage
+\begin{center}
+    \item\section*{Abstract}
+\end{center}
+\large
+Pookie, an AI-driven robot for promoting mental well-being, developed under advisory with Chula Student Wellness, aims to create an AI-driven companion to enhance mental well-being by promoting positivity. The robot aims to address \textbf{\textit{“Terror Outbursts,”}} a future concern in Thailand involving an anxiety–driven society, where the robot aims to alleviate feelings of stress and anxiety by providing a feeling of slowness and emotional attachment. The robot integrates computer vision, feature extraction, sensors, and actuators to address key customer needs in appearance, interactivity, and empathy. The general appearance of the robot is an anthropomorphic design with resemblance to a bear, with sensors, motors, and screens to deliver personalized interactions to the user. 
+\newpage
+\begin{center}
+    \item\section*{Acknowledgements}
+\end{center}
+The team expresses their sincere gratitude to Dr. Paulo Fernando Rocha Garcia, Ph.D., Assistant Professor of AI and Robotics at Chulalongkorn University, and Ms. Kunpariya Siripanit, Counseling Psychologist at Chula Student Wellness, Chulalongkorn University. Dr. Paulo’s expertise in artificial intelligence and robotics was instrumental in guiding the technical development of the emotional wellness robot, while Ms. Kunpariya’s insights into counseling psychology ensured the project’s alignment with mental health principles. The team also acknowledges the support provided by the faculty and staff of the International School of Engineering, whose assistance was invaluable throughout this project. 
+\normalsize
+
+\newpage
+\tableofcontents
+
+\newpage
+\input{sections/1-research-background}
+\newpage
+\input{sections/2-objective}
+\newpage
+\input{sections/3-literature-survey}
+\newpage
+\input{sections/4-project-dev}
+\newpage
+\input{sections/5-project-planning}
+\newpage
+\input{sections/6-theory}
+\newpage
+\input{sections/7-outcome}
+\newpage
+\input{sections/8-summary}
+\newpage
+\input{sections/9-roles}
+
+\newpage
+\addcontentsline{toc}{section}{References}
+\bibliographystyle{IEEEtran}
+\bibliography{sections/references}
+
+\end{document}
